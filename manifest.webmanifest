@@ -1,0 +1,49 @@
+{
+  "name": "SymbolCopy — 小红书特殊符号·表情·花式字体 一键复制站",
+  "short_name": "小红书符号库",
+  "description": "小红书专用特殊符号、颜文字表情、花式字体转换工具，支持1000+特殊符号、500+日式颜文字和30种Unicode花式字体，一键复制使用。",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4f46e5",
+  "icons": [
+    {
+      "src": "assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "小红书符号",
+      "url": "./?tab=symbols&category=小红书",
+      "description": "浏览小红书专用符号集合"
+    },
+    {
+      "name": "特殊符号",
+      "url": "./?tab=symbols",
+      "description": "浏览特殊符号集合"
+    },
+    {
+      "name": "颜文字表情",
+      "url": "./?tab=kaomoji",
+      "description": "浏览颜文字表情集合"
+    },
+    {
+      "name": "花式字体",
+      "url": "./?tab=fonts",
+      "description": "转换文字为花式字体"
+    }
+  ],
+  "categories": ["utilities", "productivity"],
+  "lang": "zh-CN",
+  "orientation": "any",
+  "prefer_related_applications": false
+}
